@@ -74,8 +74,7 @@
   margin-top: 10px;
   margin-bottom: 30px;
   font-size: 14px;
-  min-width: 30px;
-  max-width: fit-content;
+  width: max-content;
 }
 
 
@@ -110,8 +109,6 @@
   cursor: pointer;
 }
 
-
-
 .micIcon{
   height: 17px;
 }
@@ -142,9 +139,7 @@
   border-radius: 50px;
 }
 
-.sideBar{
-  display: inline-block;
-}
+
 
 .videoContent{
   flex: 1;
@@ -154,3 +149,4 @@
   display: flex;
   justify-content: center;
 }
+
