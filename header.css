@@ -74,7 +74,8 @@
   margin-top: 10px;
   margin-bottom: 30px;
   font-size: 14px;
-  width: max-content;
+  width: fit-content;
+  white-space: nowrap;
 }
 
 
