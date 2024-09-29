@@ -4,12 +4,18 @@ html, body{
   color: white;
 }
 
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .thumbnail{
-  width: 400px;
+  width: 100%;
   border-radius: 10px;
 }
 
 .searchBar{
+  display: block;
   padding-left: 20px;
   font-size: 18px;
   border-radius: 50px;
@@ -27,45 +33,51 @@ html, body{
 
 .title{
   width: 300px;
-  font-weight: bold;
-  margin: 0;
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 0;
+  line-height: 20px;
+  margin-bottom: 12px;
 }
 
-.youtuber{
-  width: 300px;
-  margin: 0;
-  color: grey;
-}
-
+.youtuber,
 .views{
   width: 300px;
   margin: 0;
-  color: grey;
+  color: rgb(170, 170, 170);
+  font-size: 15px;
 }
 
 .youtubeProfile{
-  width: 40px;
   border-radius: 100%;
-  margin-right: 20px;
 }
 
-.content{
-  margin-top: 5px;
-  display: flex;
+.videoInfo{
+  display: inline-block;
 }
 
-.row{
-  display: flex;
-  margin-right: 40px;
-  margin-left: 40px;
+.profile{
+  width: 40px;
+  border-radius: 50px;
 }
 
-.card{
-  margin-top: 20px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 20px;
+.videoInfoGrid{
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
+
+.videoGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+
+.thumbnailVideo{
+  margin-bottom: 12px;
+}
+
+
 
 ::-webkit-scrollbar {
   width: 15px;
