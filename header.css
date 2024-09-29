@@ -3,6 +3,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: rgb(20, 20, 20);
+  position: fixed;
+  width: 100%;
 }
 
 .leftSection{
@@ -51,11 +54,15 @@
 }
 
 .category{
-  margin-left: 20px;
-  justify-content: center;
+  padding-left: 10px;
+  margin-left: 0px;
   display: flex;
   align-content: center;
   text-align: center;
+  position: fixed;
+  background: rgb(20, 20, 20);
+  top: 56px;
+  width: 100%;
 }
 
 .categorySection{
@@ -72,8 +79,8 @@
   padding-left: 10px;
   padding-right: 10px;
   margin-top: 10px;
-  margin-bottom: 30px;
-  font-size: 14px;
+  margin-bottom: 20px;
+  font-size: 12px;
   width: fit-content;
   white-space: nowrap;
 }
@@ -124,10 +131,12 @@
 
 .notification{
   height: 25px;
+  margin-left: 20px;
 }
 
 .myProfile{
   height: 40px;
+  margin-left: 20px;
 }
 
 .createVideo,
@@ -151,3 +160,11 @@
   justify-content: center;
 }
 
+.spacing{
+  padding-top: 120px;
+}
+
+.searchBar:focus{
+  border: 2px solid rgb(100, 110, 205);
+  outline: none;
+}
