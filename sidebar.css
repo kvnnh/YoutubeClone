@@ -5,6 +5,7 @@
 }
 
 .sideBar{
+  z-index: 1000;
   top: 56px;
   left: 0;
   position: fixed;
@@ -32,6 +33,10 @@
   overflow-y: scroll;
 }
 
+.sidebarSpacing{
+  padding-bottom: 80px;
+}
+
 .sidebarContent{
   cursor: pointer;
   border-radius: 5px;
@@ -48,7 +53,12 @@
 }
 
 hr {
-  margin-left: 25px;
   margin-right: 25px;
-  border-color: rgb(30, 30, 30)
+  border-color: rgb(30, 30, 30, 0.4)
+}
+
+.sidebartitle{
+  margin-left: 35px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
