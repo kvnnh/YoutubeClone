@@ -1,4 +1,77 @@
-@media (min-width: 0px) and (max-width: 640px){
+@media (max-width: 390px){
+  .videoGrid{
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+  .sideBar{
+    width: 150px;
+  }
+  .sidebarContent{
+    font-size: 10px;
+  }
+  .videoContent{
+    margin-left:20px;
+  }
+  .sideBar{
+    visibility: hidden;
+  }
+  .searchBar{
+    visibility: hidden;
+    display: none;
+  }
+  .middleSection{
+    width: 80px;
+    margin-right: 0px;
+  }
+
+  .rightSection{
+    width: 100px !important;
+    margin-right: 20px;
+  }
+
+  .myProfile{
+    height: 30px !important;
+  }
+
+  .micBtn{
+    background-color: rgb(20,20,20);
+    border: none;
+    
+  }
+  .searchBtn{
+    background-color: rgb(20,20,20);
+    border: none;
+    margin-right: 0 !important;
+  }
+
+  .micIcon{
+    height: 14px;
+  }
+  
+  .searchIcon{
+    height: 16px;
+  }
+  
+  .createVideo{
+    height: 13px !important;
+  }
+  
+  .notification{
+    height: 18px;
+    margin-left: 20px;
+  }
+  
+  .myProfile{
+    height: 30px !important;
+    margin-left: 20px;
+    border-radius: 50px;
+  }
+
+  
+  
+}
+
+@media (min-width: 391px) and (max-width: 640px){
   .videoGrid{
     grid-template-columns: 1fr;
     row-gap: 20px;
