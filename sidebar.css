@@ -11,7 +11,6 @@
   position: fixed;
   margin-top: 10px;
   display: inline-block;
-  width: 250px;
   background-color: rgb(20, 20, 20);
   max-height: 100vh;
   overflow-y: hidden;
@@ -44,7 +43,6 @@
   margin: 0 20px 0 20px;
   display: flex;
   align-items: center;
-  font-size: 14px;
 }
 
 .sidebarContent:hover{

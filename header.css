@@ -14,15 +14,27 @@
 }
 
 .middleSection{
-  flex: 1;
-  margin-left: 150px;
-  margin-right: 100px;
   max-width: 730px;
   padding-top: 5px;
   align-items: center;
   display: flex;
 }
 
+.micBtn{
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.searchBtn{
+  height: 40px;
+  width: 60px;
+  border-radius: 0 50px 50px 0;
+  padding: 5px 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
 
 .rightSection{
   display: flex;
@@ -102,35 +114,6 @@
   height: 20px;
 }
 
-.micBtn{
-  height: 40px;
-  width: 40px;
-  background-color: rgb(255, 255, 255, 0.08);
-  border: 2px solid rgba(48, 48, 48);
-  border-radius: 50px;
-  cursor: pointer;
-  border: none;
-}
-
-.searchBtn{
-  height: 40px;
-  width: 60px;
-  background-color: rgb(255, 255, 255, 0.08);
-  border-radius: 0 50px 50px 0;
-  padding: 5px 10px;
-  margin-right: 20px;
-  border: 2px solid rgba(48, 48, 48);
-  cursor: pointer;
-}
-
-.micIcon{
-  height: 17px;
-}
-
-.searchIcon{
-  height: 20px;
-}
-
 .createVideo{
   height: 20px;
 }
@@ -143,16 +126,13 @@
 .myProfile{
   height: 40px;
   margin-left: 20px;
+  border-radius: 50px;
 }
 
 .createVideo,
 .notification,
 .myProfile{
   cursor: pointer;
-}
-
-.myProfile{
-  border-radius: 50px;
 }
 
 .videoContent{
